@@ -1,0 +1,45 @@
+body {
+    padding-top: 56px;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+.social-icons a {
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+.testimonial {
+    background-color: #f7fafa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+iframe {
+    width: 100%;
+    border: 0;
+    height: 350px;
+}
+.marquee {
+    overflow: hidden;
+    position: relative;
+}
+.marquee-content {
+    display: flex;
+    animation: marquee 30s linear infinite;
+}
+.marquee-content img {
+    max-height: 50px;
+    object-fit: contain;}
+
+
+@keyframes marquee {
+    0% {
+    transform: translateX(0%);}
+    100% {
+    transform: translateX(-50%);}}
+/* Esta regla de CSS se utiliza para modificar tamaño imágenes en contenedor section  */
+.carousel-inner .carousel-item img{
+    height: 80vh;
+    width: 90vw;}
